@@ -1,5 +1,5 @@
 # 1. 가볍고 안정적인 Python 3.10 부림(slim) 이미지를 베이스로 사용
-FROM python:3.10-slim
+FROM python:3.10
 
 # 2. 컨테이너 내부의 작업 디렉토리를 /app으로 설정
 WORKDIR /app
